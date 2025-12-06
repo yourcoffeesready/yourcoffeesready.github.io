@@ -2,12 +2,126 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Test Test Test</title>
+    <title>Your Coffees Ready | Home</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="description" content="Your Coffees Ready – freshly roasted coffee, cozy atmosphere, and handcrafted drinks.">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+<header class="site-header">
+    <div class="container header-inner">
+        <a href="index.html" class="logo">
+            <span class="logo-mark">☕</span>
+            <span class="logo-text">Your Coffees Ready</span>
+        </a>
 
-    <h1>Test Test Test</h1>
-    <p>Hello this is a test.</p>
+        <button class="nav-toggle" aria-label="Toggle navigation">
+            <span class="nav-toggle-bar"></span>
+            <span class="nav-toggle-bar"></span>
+            <span class="nav-toggle-bar"></span>
+        </button>
 
+        <nav class="main-nav">
+            <ul>
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<main>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container hero-inner">
+            <div class="hero-text">
+                <h1>Your Coffees Ready</h1>
+                <p>Freshly roasted beans, handcrafted drinks, and a cozy corner just for you.</p>
+                <div class="hero-actions">
+                    <a href="menu.html" class="btn btn-primary">View Our Menu</a>
+                    <a href="contact.html" class="btn btn-secondary">Visit Us</a>
+                </div>
+                <p class="hero-subtext">
+                    Open daily • 7:00 AM – 8:00 PM
+                </p>
+            </div>
+            <div class="hero-image">
+                <!-- Replace with real image -->
+                <div class="mock-image-card">
+                    <span class="mock-image-label">Signature Latte</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Highlights Section -->
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title">Why You’ll Love It Here</h2>
+            <div class="feature-grid">
+                <article class="feature-card">
+                    <h3>Freshly Roasted Beans</h3>
+                    <p>We source specialty-grade beans and roast in small batches for peak flavor.</p>
+                </article>
+                <article class="feature-card">
+                    <h3>Cozy Community Space</h3>
+                    <p>Free Wi‑Fi, plenty of outlets, and comfortable seating for working or relaxing.</p>
+                </article>
+                <article class="feature-card">
+                    <h3>Handcrafted Drinks</h3>
+                    <p>From classic espresso to seasonal specials, every cup is made to order.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Preview Menu Section -->
+    <section class="section section-alt">
+        <div class="container">
+            <h2 class="section-title">A Taste of Our Menu</h2>
+            <div class="menu-preview-grid">
+                <div class="menu-preview-item">
+                    <h3>Espresso Classics</h3>
+                    <ul>
+                        <li>Espresso</li>
+                        <li>Cappuccino</li>
+                        <li>Vanilla Latte</li>
+                    </ul>
+                </div>
+                <div class="menu-preview-item">
+                    <h3>Seasonal Specials</h3>
+                    <ul>
+                        <li>Caramel Maple Latte</li>
+                        <li>Honey Cinnamon Cold Brew</li>
+                        <li>Pumpkin Spice Flat White</li>
+                    </ul>
+                </div>
+                <div class="menu-preview-item">
+                    <h3>Bakery & Bites</h3>
+                    <ul>
+                        <li>Butter Croissant</li>
+                        <li>Chocolate Chip Cookie</li>
+                        <li>Avocado Toast</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="section-cta">
+                <a href="menu.html" class="btn btn-primary">See Full Menu</a>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer class="site-footer">
+    <div class="container footer-inner">
+        <p>&copy; <span id="year"></span> Your Coffees Ready. All rights reserved.</p>
+        <p class="footer-small">Crafted with care &amp; coffee.</p>
+    </div>
+</footer>
+
+<script src="script.js"></script>
 </body>
 </html>
